@@ -1,0 +1,19 @@
+name = "BeamPropagation"
+uuid = "3b7771b3-0fff-45f6-8d8e-6a934b658944"
+authors = ["Christian Heiberg Hallas <christianhallas@g.harvard.edu> and contributors"]
+version = "0.1.0"
+
+[deps]
+ParallelDataTransfer = "2dcacdae-9679-587a-88bb-8b444fb7085b"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+ThreadPools = "b189fb0b-2eb5-4ed4-bc0c-d34c51242431"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
